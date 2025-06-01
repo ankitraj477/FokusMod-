@@ -1,7 +1,18 @@
-# 🌟 FocusMode+
+# 🌟 FokusMod+
 
-FocusMode+ is a Chrome Extension to help you stay productive.
+<img src="assets/LOGO.PNG" alt="FokusMod+ Logo" width="120"/>
 
+**FokusMod+** is a Chrome Extension to help you stay productive by focusing only on your custom sites and blocking distractions.
+
+---
+
+# 🌟 FokusMod+
+
+<img src="assets/LOGO.PNG" alt="FokusMod+ Logo" width="120"/>
+
+**FokusMod+** is a Chrome Extension to help you stay productive by focusing only on your custom sites and blocking distractions.
+
+---
 
 ## 📌 Features
 
