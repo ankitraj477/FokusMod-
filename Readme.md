@@ -21,14 +21,19 @@
 
 ---
 
-## 🎥 Preview
-
-![FokusMod+ Screenshot](https://github.com/ankitraj477/FokusMod/assets/preview.png) <!-- Update this with your actual image link after uploading -->
-
----
-
 ## 🚀 How to Install (Locally)
 
 1. **Clone the repository**:
    ```bash
    git clone https://github.com/ankitraj477/FokusMod.git
+
+
+### 🛠 Tech Used
+- HTML, CSS, JavaScript
+- Chrome Extension APIs (Storage, Content Scripts)
+
+---
+
+Feel free to contribute or suggest improvements!
+
+📩 Built by [Ankit Raj](https://www.linkedin.com/in/ankit-raj30/)
