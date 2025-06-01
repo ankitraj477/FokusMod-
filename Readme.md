@@ -1,32 +1,18 @@
-# 🌟 FokusMod+ – Your Personal Focus Assistant 🧠
+# 🌟 FocusMode+
 
-![GitHub Repo stars](https://img.shields.io/github/stars/ankitraj477/FokusMod?style=social)
-![GitHub forks](https://img.shields.io/github/forks/ankitraj477/FokusMod?style=social)
-![License](https://img.shields.io/github/license/ankitraj477/FokusMod?color=blue)
-![Chrome Extension](https://img.shields.io/badge/Chrome%20Extension-Coming%20Soon-orange)
-![Made with](https://img.shields.io/badge/Made%20with-JavaScript-green)
+FocusMode+ is a Chrome Extension to help you stay productive.
 
-> 🚫 Block distractions. ⏱ Track focus. 💪 Maximize productivity.
+### ✅ Features
+- Toggle Focus Mode on/off
+- Whitelist specific websites
+- Automatically blacks out other sites
+- Tracks your daily focus time
 
----
-
-## 📌 Features
-
-- ✅ Add custom **focus websites** (e.g., `leetcode.com`)
-- 🔒 Automatically **block all other websites** when focus mode is ON
-- ⏳ Log and display **daily focus time**
-- 🔁 Toggle **focus mode** on/off anytime
-- 🧾 Simple dropdowns for viewing/removing focus sites and time logs
-- ⚙️ Persistent settings via Chrome's local storage
-
----
-
-## 🚀 How to Install (Locally)
-
-1. **Clone the repository**:
-   ```bash
-   git clone https://github.com/ankitraj477/FokusMod.git
-
+### 🚀 How to Install (Manual Method)
+1. Download this repository as ZIP and extract it.
+2. Go to `chrome://extensions/` in your Chrome browser.
+3. Enable **Developer Mode**.
+4. Click **Load unpacked** and select the folder containing `manifest.json`.
 
 ### 🛠 Tech Used
 - HTML, CSS, JavaScript
