@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>FocusMode+</title>
+  <link rel="stylesheet" href="style.css">
+  <style>
+    body { font-family: sans-serif; padding: 10px; }
+    .site-entry {
+      display: flex;
+      justify-content: space-between;
+      margin: 4px 0;
+    }
+    .remove-btn {
+      background-color: red;
+      color: rgb(237, 231, 231);
+      border: none;
+      padding: 2px 6px;
+      cursor: pointer;
+      border-radius: 3px;
+    }
+    #focus-sites { margin-bottom: 10px; }
+  </style>
+</head>
+<body>
+  <h2>🌟 FokusMod+</h2>
+
+  <div>
+    <strong>Status:</strong> <span id="mode-status">Loading...</span><br>
+    <button id="toggle-btn">Toggle Focus Mode</button>
+  </div>
+
+  <hr>
+
+  <!-- <h3>✅ Focus Sites</h3>
+  <input type="text" id="new-site" placeholder="e.g. leetcode.com">
+  <button id="add-site">Add</button>
+
+  <div id="focus-sites"></div>
+
+  <hr> -->
+
+  <h3>✅ Focus Sites</h3>
+<input type="text" id="new-site" placeholder="e.g. leetcode.com">
+<button id="add-site">Add</button>
+
+<br><br>
+<button id="toggle-site-list">Show Sites ▼</button>
+<div id="focus-sites" style="display: none; margin-top: 10px;"></div>
+
+
+
+  <!-- <h3>📅 Focus Time</h3>
+  <ul id="focus-time-list"></ul> -->
+
+  <hr>
+
+<h3>📅 Focus Time</h3>
+<button id="toggle-time-log">Show Time Log ▼</button>
+<div id="focus-time-list" style="display: none; margin-top: 10px;"></div>
+
+
+  <script src="popup.js"></script>
+</body>
+</html>

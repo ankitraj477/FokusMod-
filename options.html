@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>FokusMod+ Settings</title>
+  <link rel="stylesheet" href="style.css">
+  <style>
+    .site-list { margin-bottom: 20px; }
+    .site-entry {
+      display: flex;
+      align-items: center;
+      margin-bottom: 6px;
+    }
+    .site-entry span {
+      flex: 1;
+    }
+    .remove-btn {
+      background-color: red;
+      color: white;
+      border: none;
+      margin-left: 8px;
+      cursor: pointer;
+      padding: 2px 6px;
+      border-radius: 3px;
+    }
+  </style>
+</head>
+<body>
+  <h2>⚙️ FokusMod+ Settings</h2>
+
+  <!-- Blocked Sites Section -->
+  <h3>🔕 Blocked Sites</h3>
+  <div id="blocked-sites" class="site-list"></div>
+  <input type="text" id="new-blocked" placeholder="Enter site (e.g. facebook.com)">
+  <button id="add-blocked">Add</button>
+
+  <!-- Focus Sites Section -->
+  <h3>✅ Focus Sites</h3>
+  <div id="focus-sites" class="site-list"></div>
+  <input type="text" id="new-focus" placeholder="Enter site (e.g. leetcode.com)">
+  <button id="add-focus">Add</button>
+
+  <!-- Productivity Time -->
+  <h3>📊 Focus Time Today</h3>
+  <p id="focus-time">Loading...</p>
+
+  <p id="saved-msg" style="color: green; display: none;">✔ Settings saved!</p>
+
+  <script src="options.js"></script>
+</body>
+</html>

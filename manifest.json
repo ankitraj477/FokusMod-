@@ -1,0 +1,35 @@
+{
+  "manifest_version": 3,
+  "name": "FokusMod+",
+  "version": "1.0",
+  "description": "Block distractions and track your focus time.",
+  "permissions": [
+    "tabs",
+    "storage",
+    "scripting"
+  ],
+  "host_permissions": [
+    "<all_urls>"
+  ],
+  "background": {
+    "service_worker": "background.js"
+  },
+  "action": {
+    "default_popup": "popup.html",
+    "default_icon": "LOGO.png"
+  },
+  "options_page": "options.html",
+  "content_scripts": [
+    {
+      "matches": ["<all_urls>"],
+      "js": ["content.js"],
+      "run_at": "document_idle"
+    }
+  ],
+  "icons": {
+    "16": "LOGO.png",
+    "32": "LOGO.png",
+    "48": "LOGO.png",
+    "128": "LOGO.png"
+  }
+}
